@@ -9,7 +9,7 @@ import userRoute from './user.route';
  */
 const routes = () => {
   router.get('/', (req, res) => {
-    res.json('Welcome');
+    res.json('Welcome to user registration');
   });
   router.use('/users', userRoute);
 

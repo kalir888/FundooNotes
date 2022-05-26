@@ -20,6 +20,19 @@ export const getAllUsers = async (req, res, next) => {
   }
 };
 
+export const registerUser = async (req, res, next) => {
+  try {
+    const data = await UserService.registerUser(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'User registered succesfully'
+    });
+  }catch(error) {
+    next(error);
+  }
+};
+
 /**
  * Controller to get a single user
  * @param  {object} req - request object

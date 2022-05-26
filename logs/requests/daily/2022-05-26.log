@@ -1,0 +1,6 @@
+info: ::1 - - [26/May/2022:07:04:16 +0000] "GET /api/v1/ HTTP/1.1" 200 30 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/May/2022:07:15:42 +0000] "POST /api/v1/users/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [26/May/2022:07:17:58 +0000] "POST /api/v1/users/signup HTTP/1.1" 200 247 "-" "PostmanRuntime/7.29.0"
+

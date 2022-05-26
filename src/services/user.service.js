@@ -6,6 +6,11 @@ export const getAllUsers = async () => {
   return data;
 };
 
+export const registerUser = async (body) => {
+  const data = await User.create(body);
+  return data;
+};
+
 //create new user
 export const newUser = async (body) => {
   const data = await User.create(body);
