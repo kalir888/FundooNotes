@@ -35,7 +35,7 @@ export const registerUser = async (req, res, next) => {
 
 export const userLogin = async (req, res, next) => {
   try {
-    const data = await UserService.userLogin(req.body.userId,req.body.email);
+    const data = await UserService.userLogin(req.body.email,req.body.password);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

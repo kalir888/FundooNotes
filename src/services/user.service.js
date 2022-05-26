@@ -11,8 +11,8 @@ export const registerUser = async (body) => {
   return data;
 };
 
-export const userLogin = async (id, mail) => {
-  const data = await User.findOne({userId: id},{email: mail});
+export const userLogin = async (mail, pass) => {
+  const data = await User.findOne({email: mail},{password: pass});
   return data;
 };
 
