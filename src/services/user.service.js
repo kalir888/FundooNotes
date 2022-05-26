@@ -11,6 +11,11 @@ export const registerUser = async (body) => {
   return data;
 };
 
+export const userLogin = async (id, mail) => {
+  const data = await User.findOne({userId: id},{email: mail});
+  return data;
+};
+
 //create new user
 export const newUser = async (body) => {
   const data = await User.create(body);

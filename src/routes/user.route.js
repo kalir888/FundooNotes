@@ -11,6 +11,9 @@ router.get('', userController.getAllUsers);
 //route to user registered
 router.post('/signup', userController.registerUser);
 
+//route to user login
+router.get('/login', userController.userLogin);
+
 /* //route to create a new user
 router.post('', newUserValidator, userController.newUser);
 

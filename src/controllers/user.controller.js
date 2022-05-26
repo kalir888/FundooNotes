@@ -33,6 +33,19 @@ export const registerUser = async (req, res, next) => {
   }
 };
 
+export const userLogin = async (req, res, next) => {
+  try {
+    const data = await UserService.userLogin(req.body.userId,req.body.email);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Login successfully'
+    });
+  }catch(error) {
+    next(error);
+  }
+};
+
 /**
  * Controller to get a single user
  * @param  {object} req - request object
