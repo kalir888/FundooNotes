@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import bcrypt from 'bcrypt';
 
 //get all users
 export const getAllUsers = async () => {
@@ -9,6 +10,7 @@ export const getAllUsers = async () => {
 export const registerUser = async (body) => {
   const resData = await User.findOne({email: body.email});
   if(resData == null) {
+    body.password = await bcrypt.hash(body.password, 10);
     const data = await User.create(body);
     return data;
   }else {
@@ -21,13 +23,12 @@ export const userLogin = async (userData) => {
   if(data == null) {
     throw new Error("User does not exist");
   }else {
-    if(data.password == userData.password) {
+    if(bcrypt.compare(userData.password, data.password)) {
       return data;
     }else {
       throw new Error("Password not match");
     }
   }
-  return null;
 };
 
 /* //create new user

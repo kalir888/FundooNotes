@@ -233,3 +233,17 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-05-27T03:40:24.374Z"}
+error: 
+    status - 500 
+    message - Error: Password not match
+    at _callee4$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:33:13)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-27T05:27:55.333Z"}

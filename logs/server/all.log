@@ -301,3 +301,25 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-27T0
 info: Connected to the database. {"timestamp":"2022-05-27T03:44:07.359Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-27T03:46:18.276Z"}
 info: Connected to the database. {"timestamp":"2022-05-27T03:46:18.341Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-27T05:26:51.673Z"}
+info: Connected to the database. {"timestamp":"2022-05-27T05:26:51.808Z"}
+error: 
+    status - 500 
+    message - Error: Password not match
+    at _callee4$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:33:13)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-27T05:27:55.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-27T08:19:18.432Z"}
+info: Connected to the database. {"timestamp":"2022-05-27T08:19:18.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-27T09:06:23.800Z"}
+info: Connected to the database. {"timestamp":"2022-05-27T09:06:23.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-27T09:32:09.680Z"}
+info: Connected to the database. {"timestamp":"2022-05-27T09:32:10.077Z"}
