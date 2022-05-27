@@ -7,16 +7,30 @@ export const getAllUsers = async () => {
 };
 
 export const registerUser = async (body) => {
-  const data = await User.create(body);
-  return data;
+  const resData = await User.findOne({email: body.email});
+  if(resData == null) {
+    const data = await User.create(body);
+    return data;
+  }else {
+    throw new Error("User already exist");
+  }
 };
 
-export const userLogin = async (mail, pass) => {
-  const name = await User.findOne({email: mail, password: pass},{firstName: 1, _id: 0});
-  return name;
+export const userLogin = async (userData) => {
+  const data = await User.findOne({email: userData.email});
+  if(data == null) {
+    throw new Error("User does not exist");
+  }else {
+    if(data.password == userData.password) {
+      return data;
+    }else {
+      throw new Error("Password not match");
+    }
+  }
+  return null;
 };
 
-//create new user
+/* //create new user
 export const newUser = async (body) => {
   const data = await User.create(body);
   return data;
@@ -46,4 +60,4 @@ export const deleteUser = async (id) => {
 export const getUser = async (id) => {
   const data = await User.findById(id);
   return data;
-};
+}; */
