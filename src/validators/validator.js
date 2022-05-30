@@ -18,3 +18,22 @@ export const newUserValidator = (req, res, next) => {
     next();
   }
 };
+
+export const newNoteValidator = (req, res, next) => {
+  const schema = Joi.object({
+    Title: Joi.string().required(),
+    Description: Joi.string().required(),
+    color: Joi.string().optional()
+  });
+  const { error, value } = schema.validate(req.body);
+  if (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  } else {
+    next();
+  }
+};
+
+

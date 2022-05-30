@@ -38,10 +38,10 @@ export const registerUser = async (req, res, next) => {
 
 export const userLogin = async (req, res, next) => {
   try {
-    const name = await UserService.userLogin(req.body);
+    const data = await UserService.userLogin(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      name: name,
+      data: data,
       message: 'Login successfully'
     });
   }catch(error) {

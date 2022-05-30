@@ -247,3 +247,263 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-05-27T05:27:55.333Z"}
+error: 
+    status - 500 
+    message - Error: Password not match
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:30:13)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-28T04:11:53.306Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:29:23)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T03:42:32.717Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:29:23)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T03:43:30.593Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:25:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T04:41:20.150Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12) {"date":"Mon May 30 2022 10:14:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":684366},"process":{"argv":["node","C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19041760,"external":20636006,"heapTotal":79712256,"heapUsed":54380144,"rss":108691456},"pid":3920,"uid":null,"version":"v16.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)","timestamp":"2022-05-30T04:44:24.189Z","trace":[{"column":13,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T06:49:53.619Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T06:50:14.374Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-30T06:50:25.262Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-30T06:50:38.160Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-30T06:50:44.699Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:4:27)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.createNote (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:4:24)
+    at _callee$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:6:38)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T07:11:44.947Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:4:27)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.createNote (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:4:24)
+    at _callee$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:6:38)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-05-30T08:09:27.494Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:30:27)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at updateNote (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:30:24)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:365:14) 
+    url - /api/v1/notes/62947bfc2d56650e080715d4 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-05-30T09:23:26.458Z"}
+error: 
+    status - 500 
+    message - ReferenceError: User is not defined
+    at _callee4$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:27:27)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.deleteUser (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:27:24)
+    at _callee4$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:45:25)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/62947bfc2d56650e080715d4 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-05-30T09:26:00.612Z"}

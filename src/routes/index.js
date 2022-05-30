@@ -2,6 +2,7 @@ import express from 'express';
 const router = express.Router();
 
 import userRoute from './user.route';
+import noteRoute from './note.route';
 /**
  * Function contains Application routes
  *
@@ -9,10 +10,10 @@ import userRoute from './user.route';
  */
 const routes = () => {
   router.get('/', (req, res) => {
-    res.json('Welcome to user registration');
+    res.json('Welcome to Notes Keeper');
   });
   router.use('/users', userRoute);
-
+  router.use('/notes', noteRoute);
   return router;
 };
 
