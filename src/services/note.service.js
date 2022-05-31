@@ -1,6 +1,11 @@
 import Note from '../models/notes.model';
 import bcrypt from 'bcrypt';
 
+export const getAllNotes = async () => {
+  const data = await Note.find();
+  return data;
+};
+
 export const createNote = async (body) => {
       const data = await Note.create(body);
       return data;

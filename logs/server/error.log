@@ -507,3 +507,64 @@ error:
     method - DELETE 
     IP - ::1
    {"timestamp":"2022-05-30T09:26:00.612Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes/62956fdc075c272174a262fb 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-31T02:21:44.867Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\types\json.js:83:15)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes/62956fdc075c272174a262fb 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-31T02:22:01.096Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:4:28)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllNotes (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:4:25)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-05-31T02:52:04.674Z"}

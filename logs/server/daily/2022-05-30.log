@@ -299,3 +299,11 @@ error:
    {"timestamp":"2022-05-30T09:26:00.612Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-30T09:26:25.611Z"}
 info: Connected to the database. {"timestamp":"2022-05-30T09:26:25.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-30T14:58:22.785Z"}
+info: Connected to the database. {"timestamp":"2022-05-30T14:58:22.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-30T15:55:43.401Z"}
+info: Connected to the database. {"timestamp":"2022-05-30T15:55:43.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-30T15:56:46.768Z"}
+info: Connected to the database. {"timestamp":"2022-05-30T15:56:46.895Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-05-30T15:57:03.305Z"}
+info: Connected to the database. {"timestamp":"2022-05-30T15:57:03.407Z"}

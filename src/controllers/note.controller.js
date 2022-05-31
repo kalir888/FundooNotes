@@ -1,6 +1,19 @@
 import HttpStatus from 'http-status-codes';
 import * as NoteService from '../services/note.service.js';
 
+export const getAllNotes = async (req, res, next) => {
+  try {
+    const data = await NoteService.getAllNotes();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'All notes fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
 export const createNote = async (req, res, next) => {
     try {
       const data = await NoteService.createNote(req.body);
