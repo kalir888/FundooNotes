@@ -3,10 +3,10 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 //get all users
-export const getAllUsers = async () => {
+/* export const getAllUsers = async () => {
   const data = await User.find();
   return data;
-};
+}; */
 
 export const registerUser = async (body) => {
   const resData = await User.findOne({email: body.email});
