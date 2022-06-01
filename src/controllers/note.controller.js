@@ -65,3 +65,29 @@ export const deleteNote = async (req, res, next) => {
       next(error);
     }
 };
+
+export const setIsArchived = async (req, res, next) => {
+  try {
+    const data = await NoteService.setIsArchived(req.params._id, req.body.UserID);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note is Archived successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const setIsDeleted = async (req, res, next) => {
+  try {
+    const data = await NoteService.setIsDeleted(req.params._id, req.body.UserID);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Note is moved to trash successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

@@ -659,3 +659,47 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2022-06-01T03:46:39.717Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-01T04:34:19.043Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:25:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-01T04:36:18.696Z"}
+error: 
+    status - 500 
+    message - ReferenceError: isArchived is not defined
+    at _callee6$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:33:87)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.setIsArchived (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/note.service.js:32:27)
+    at _callee6$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\controllers\/note.controller.js:71:36)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/notes/isArchieved/6296ee0aadbdb225148e070a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-06-01T04:43:19.892Z"}

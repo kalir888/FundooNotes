@@ -9,12 +9,12 @@ export const getAllNotes = async (UserID) => {
 export const createNote = async (body) => {
       const data = await Note.create(body);
       return data;
-  };
+};
 
 export const getNote = async (id, UserID) => {
-    const data = await Note.findById({_id: id, UserID: UserID});
+    const data = await Note.findOne({_id: id, UserID: UserID});
     return data;
-  };
+};
 
 export const updateNote = async (id, body) => {
     const data = await Note.findOneAndUpdate({ _id: id, UserID: body.UserID }, 
@@ -22,9 +22,24 @@ export const updateNote = async (id, body) => {
       new: true
     });
     return data;
-  };
+};
 
 export const deleteNote = async (id, UserID) => {
     await Note.findByIdAndDelete({_id: id, UserID: UserID});
     return '';
-  };
+};
+
+export const setIsArchived = async (id, UserID) => {
+  const data = await Note.findOne({ _id: id, UserID: UserID});
+  const currentStatus = data.isArchived;
+  const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isArchived: !currentStatus});
+  return resData;
+};
+
+export const setIsDeleted = async (id, UserID) => {
+  const data = await Note.findOne({ _id: id, UserID: UserID});
+  const currentStatus = data.isDeleted;
+  const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isDeleted: !currentStatus});
+  return resData;
+};
+
