@@ -49,6 +49,7 @@ export const userLogin = async (req, res, next) => {
   }
 };
 
+
 /**
  * Controller to get a single user
  * @param  {object} req - request object

@@ -1,0 +1,12 @@
+info: ::1 - - [02/Jun/2022:03:02:11 +0000] "PUT /api/v1/notes/isDeleted/6296ee0aadbdb225148e070a HTTP/1.1" 202 333 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:03:02:21 +0000] "PUT /api/v1/notes/isDeleted/6296ee0aadbdb225148e070a HTTP/1.1" 202 332 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:03:02:29 +0000] "PUT /api/v1/notes/isDeleted/6296ee0aadbdb225148e070a HTTP/1.1" 202 333 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:03:02:50 +0000] "PUT /api/v1/notes/isArchived/6296ee0aadbdb225148e070a HTTP/1.1" 202 326 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:03:03:47 +0000] "PUT /api/v1/notes/isArchived/6296ee0aadbdb225148e070a HTTP/1.1" 202 325 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:03:03:53 +0000] "PUT /api/v1/notes/isArchived/6296ee0aadbdb225148e070a HTTP/1.1" 202 326 "-" "PostmanRuntime/7.29.0"
+

@@ -26,13 +26,15 @@ export const userLogin = async (userData) => {
   }else {
     let passwordCheck = await bcrypt.compare(userData.password, data.password);
     if(passwordCheck) {
-      let token = jwt.sign({ firstName: data.firstName, email: data.email, id: data._id }, process.env.SECRET_KEY);
+      let token = jwt.sign({firstName: data.firstName, email: data.email, id: data._id}, process.env.SECRET_KEY);
       return token;
     }else {
       throw new Error("Password not match");
     }
   }
 };
+
+
 
 /* //create new user
 export const newUser = async (body) => {

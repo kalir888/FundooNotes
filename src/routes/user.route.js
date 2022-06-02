@@ -13,6 +13,8 @@ router.post('/signup', newUserValidator, userController.registerUser);
 //route to user login
 router.post('/login', userController.userLogin);
 
+
+
  /* //route to create a new user
 router.post('', newUserValidator, userController.newUser);
 
