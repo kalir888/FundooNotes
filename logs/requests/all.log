@@ -397,3 +397,67 @@ info: ::1 - - [02/Jun/2022:03:03:47 +0000] "PUT /api/v1/notes/isArchived/6296ee0
 
 info: ::1 - - [02/Jun/2022:03:03:53 +0000] "PUT /api/v1/notes/isArchived/6296ee0aadbdb225148e070a HTTP/1.1" 202 326 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [02/Jun/2022:06:46:25 +0000] "GET /api/v1/%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:47:05 +0000] "GET /api/v1/%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:47:30 +0000] "GET /api/v1/%20 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:47:49 +0000] "GET /api/v1/ HTTP/1.1" 200 25 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:48:06 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:50:57 +0000] "POST /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:51:13 +0000] "POST /api/v1/users/signup HTTP/1.1" 400 66 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:51:24 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 337 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:52:44 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 500 92 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:06:59:46 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:07:17:08 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:07:17:24 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:07:18:38 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [02/Jun/2022:08:23:24 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: userAuth is not defined
+ReferenceError: userAuth is not defined
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/user.route.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Fri Jun 03 2022 08:16:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1022898},"process":{"argv":["node","C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18950079,"external":21619005,"heapTotal":79974400,"heapUsed":53697768,"rss":109510656},"pid":10192,"uid":null,"version":"v16.15.0"},"stack":"ReferenceError: userAuth is not defined\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/user.route.js:13:23)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","trace":[{"column":23,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/user.route.js","function":null,"line":13,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: ::1 - - [03/Jun/2022:02:50:07 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jun/2022:03:06:32 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jun/2022:03:15:53 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jun/2022:03:16:32 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jun/2022:03:19:27 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jun/2022:03:27:47 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 82 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Jun/2022:03:29:19 +0000] "GET /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmaXJzdE5hbWUiOiJLYWxpbXV0aHUiLCJlbWFpbCI6ImthbGlyODg4QGdtYWlsLmNvbSIsImlkIjoiNjI5NDZiMGZlZmEwMGQxMTU0OTAwMGVhIiwiaWF0IjoxNjU0MjI2ODY3fQ.hKk8LYeufo5EkuUYGt_J9Ou1_o_v189HZu-dGAu8Fgk HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+
+info: ::1 - - [03/Jun/2022:03:29:19 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36"
+
+info: ::1 - - [03/Jun/2022:03:31:11 +0000] "POST /api/v1/users/reset HTTP/1.1" 202 339 "-" "PostmanRuntime/7.29.0"
+

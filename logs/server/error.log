@@ -703,3 +703,88 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-06-01T04:43:19.892Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:26:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T06:50:57.124Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'sendEmail')
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:44:16)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T06:52:44.334Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2-20020a630e02000000b003fa95b940bdsm2513360pgl.88 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2-20020a630e02000000b003fa95b940bdsm2513360pgl.88 - gsmtp","responseCode":535,"timestamp":"2022-06-02T06:59:48.690Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:41:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T07:17:08.215Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:41:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T07:17:23.976Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n22-20020aa78a56000000b0051b95c76752sm728658pfa.153 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n22-20020aa78a56000000b0051b95c76752sm728658pfa.153 - gsmtp","responseCode":535,"timestamp":"2022-06-02T07:18:39.466Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q68-20020a632a47000000b003fcc510d789sm1499494pgq.29 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q68-20020a632a47000000b003fcc510d789sm1499494pgq.29 - gsmtp","responseCode":535,"timestamp":"2022-06-02T08:23:27.240Z"}
+error: uncaughtException: userAuth is not defined
+ReferenceError: userAuth is not defined
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/user.route.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Fri Jun 03 2022 08:16:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1022898},"process":{"argv":["node","C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18938487,"external":21607373,"heapTotal":79974400,"heapUsed":53520544,"rss":108883968},"pid":10192,"uid":null,"version":"v16.15.0"},"stack":"ReferenceError: userAuth is not defined\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/user.route.js:13:23)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-06-03T02:46:36.103Z","trace":[{"column":23,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/user.route.js","function":null,"line":13,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 38-20020a631566000000b003db8bc8db64sm3994108pgv.35 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 38-20020a631566000000b003db8bc8db64sm3994108pgv.35 - gsmtp","responseCode":535,"timestamp":"2022-06-03T02:50:11.693Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:06:34.538Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:15:54.389Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:16:35.502Z"}

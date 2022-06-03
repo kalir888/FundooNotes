@@ -1062,3 +1062,155 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T0
 info: Connected to the database. {"timestamp":"2022-06-02T05:46:59.758Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T05:47:42.388Z"}
 info: Connected to the database. {"timestamp":"2022-06-02T05:47:42.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T05:54:04.847Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T05:54:04.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T05:55:21.879Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T05:55:21.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T05:57:27.701Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T05:57:27.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:00:58.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:01:14.621Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:01:14.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:19:44.192Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:19:44.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:25:44.033Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:25:44.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:28:30.567Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:28:30.646Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:38:53.413Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:38:53.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:43:20.189Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:43:20.281Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:43:34.370Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:43:34.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:47:26.038Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:47:26.138Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee2$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:26:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T06:50:57.124Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'sendEmail')
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:44:16)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T06:52:44.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:56:07.017Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:56:07.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:56:58.448Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:56:58.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:58:27.822Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:58:27.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T06:59:30.362Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T06:59:30.458Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2-20020a630e02000000b003fa95b940bdsm2513360pgl.88 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2-20020a630e02000000b003fa95b940bdsm2513360pgl.88 - gsmtp","responseCode":535,"timestamp":"2022-06-02T06:59:48.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:10:07.704Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:10:07.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:12:31.755Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:12:31.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:13:14.940Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:13:15.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:16:20.365Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:16:20.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:16:44.753Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:16:44.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:17:02.045Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:17:02.154Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:41:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T07:17:08.215Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\services\/user.service.js:41:11)
+    at tryCatch (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-06-02T07:17:23.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T07:18:31.607Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T07:18:31.677Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n22-20020aa78a56000000b0051b95c76752sm728658pfa.153 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials n22-20020aa78a56000000b0051b95c76752sm728658pfa.153 - gsmtp","responseCode":535,"timestamp":"2022-06-02T07:18:39.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-02T08:22:57.434Z"}
+info: Connected to the database. {"timestamp":"2022-06-02T08:22:57.547Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials q68-20020a632a47000000b003fcc510d789sm1499494pgq.29 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials q68-20020a632a47000000b003fcc510d789sm1499494pgq.29 - gsmtp","responseCode":535,"timestamp":"2022-06-02T08:23:27.240Z"}
+error: uncaughtException: userAuth is not defined
+ReferenceError: userAuth is not defined
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/user.route.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\user\Desktop\FundooNotes\FundooNotes\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\user\Desktop\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12) {"date":"Fri Jun 03 2022 08:16:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1022898},"process":{"argv":["node","C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18938487,"external":21607373,"heapTotal":79974400,"heapUsed":53520544,"rss":108883968},"pid":10192,"uid":null,"version":"v16.15.0"},"stack":"ReferenceError: userAuth is not defined\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/user.route.js:13:23)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)","timestamp":"2022-06-03T02:46:36.103Z","trace":[{"column":23,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/user.route.js","function":null,"line":13,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T02:48:10.517Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T02:48:10.714Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 38-20020a631566000000b003db8bc8db64sm3994108pgv.35 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 38-20020a631566000000b003db8bc8db64sm3994108pgv.35 - gsmtp","responseCode":535,"timestamp":"2022-06-03T02:50:11.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:06:25.594Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:06:25.722Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:06:34.538Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:15:54.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:16:25.416Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:16:25.507Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:16:35.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:19:18.057Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:19:18.148Z"}
+info: undefined {"accepted":["kalir888@gmail.com"],"envelope":{"from":"emailsample068@gmail.com","to":["kalir888@gmail.com"]},"envelopeTime":1326,"messageId":"<0a755b39-a88d-af69-e4a6-4b60f1da08cf@gmail.com>","messageSize":666,"messageTime":1140,"rejected":[],"response":"250 2.0.0 OK  1654226155 y129-20020a636487000000b003faf4acac63sm4021691pgb.13 - gsmtp","timestamp":"2022-06-03T03:19:31.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:23:27.201Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:23:27.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:23:47.334Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:23:47.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:24:16.954Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:24:17.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:25:53.012Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:25:53.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:27:10.524Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:27:10.625Z"}
+info: undefined {"accepted":["kalir888@gmail.com"],"envelope":{"from":"emailsample068@gmail.com","to":["kalir888@gmail.com"]},"envelopeTime":960,"messageId":"<de530e29-f031-d5b1-465d-8e3decd39569@gmail.com>","messageSize":685,"messageTime":881,"rejected":[],"response":"250 2.0.0 OK  1654226655 m11-20020a62f20b000000b0050dc76281fasm4233814pfh.212 - gsmtp","timestamp":"2022-06-03T03:27:51.463Z"}

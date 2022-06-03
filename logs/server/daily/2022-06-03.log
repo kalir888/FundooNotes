@@ -1,0 +1,25 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T02:48:10.517Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T02:48:10.714Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 38-20020a631566000000b003db8bc8db64sm3994108pgv.35 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials 38-20020a631566000000b003db8bc8db64sm3994108pgv.35 - gsmtp","responseCode":535,"timestamp":"2022-06-03T02:50:11.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:06:25.594Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:06:25.722Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:06:34.538Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:15:54.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:16:25.416Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:16:25.507Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:16:35.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:19:18.057Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:19:18.148Z"}
+info: undefined {"accepted":["kalir888@gmail.com"],"envelope":{"from":"emailsample068@gmail.com","to":["kalir888@gmail.com"]},"envelopeTime":1326,"messageId":"<0a755b39-a88d-af69-e4a6-4b60f1da08cf@gmail.com>","messageSize":666,"messageTime":1140,"rejected":[],"response":"250 2.0.0 OK  1654226155 y129-20020a636487000000b003faf4acac63sm4021691pgb.13 - gsmtp","timestamp":"2022-06-03T03:19:31.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:23:27.201Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:23:27.290Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:23:47.334Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:23:47.428Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:24:16.954Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:24:17.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:25:53.012Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:25:53.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-03T03:27:10.524Z"}
+info: Connected to the database. {"timestamp":"2022-06-03T03:27:10.625Z"}
+info: undefined {"accepted":["kalir888@gmail.com"],"envelope":{"from":"emailsample068@gmail.com","to":["kalir888@gmail.com"]},"envelopeTime":960,"messageId":"<de530e29-f031-d5b1-465d-8e3decd39569@gmail.com>","messageSize":685,"messageTime":881,"rejected":[],"response":"250 2.0.0 OK  1654226655 m11-20020a62f20b000000b0050dc76281fasm4233814pfh.212 - gsmtp","timestamp":"2022-06-03T03:27:51.463Z"}
