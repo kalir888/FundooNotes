@@ -788,3 +788,10 @@ error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more a
 error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:06:34.538Z"}
 error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:15:54.389Z"}
 error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-06-03T03:16:35.502Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-06-03T03:46:23.581Z"}
