@@ -11,6 +11,8 @@ var _express = _interopRequireDefault(require("express"));
 
 var _user = _interopRequireDefault(require("./user.route"));
 
+var _note = _interopRequireDefault(require("./note.route"));
+
 var router = _express["default"].Router();
 
 /**
@@ -20,9 +22,10 @@ var router = _express["default"].Router();
  */
 var routes = function routes() {
   router.get('/', function (req, res) {
-    res.json('Welcome to user registration');
+    res.json('Welcome to Notes Keeper');
   });
   router.use('/users', _user["default"]);
+  router.use('/notes', _note["default"]);
   return router;
 };
 

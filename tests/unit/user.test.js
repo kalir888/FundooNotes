@@ -1,11 +1,11 @@
-import { expect } from 'chai';
+/* import { expect } from 'chai';
 import * as UserService from '../../src/services/user.service';
 import mongoose from 'mongoose';
 
 import dotenv from 'dotenv';
 dotenv.config();
-
-describe('User', () => {
+ */
+/* describe('User', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
@@ -33,4 +33,4 @@ describe('User', () => {
       expect(result).to.be.an('array');
     });
   });
-});
+}); */

@@ -26,7 +26,10 @@ export const userLogin = async (req, res, next) => {
       message: 'Login successfully'
     });
   }catch(error) {
-    next(error);
+   res.status(HttpStatus.BAD_REQUEST).json({
+     code: HttpStatus.BAD_REQUEST,
+     message: `${error}`
+   });
   }
 };
 
@@ -38,7 +41,10 @@ export const forgotPassword = async (req, res, next) => {
       message: 'The reset password link is sent to your mail successfully'
     });
   }catch(error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -51,6 +57,9 @@ export const resetPassword = async (req, res, next) => {
       message: 'The password changed successfully'
     });
   }catch(error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 }

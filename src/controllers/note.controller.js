@@ -10,13 +10,15 @@ export const getAllNotes = async (req, res, next) => {
       message: 'All notes fetched successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
 export const createNote = async (req, res, next) => {
     try {
-      console.log('request : ', req.body);
       const data = await NoteService.createNote(req.body);
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
@@ -24,7 +26,10 @@ export const createNote = async (req, res, next) => {
         message: 'Note created succesfully'
       });
     }catch(error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
     }
 };
 
@@ -37,7 +42,10 @@ export const getNote = async (req, res, next) => {
         message: 'Note fetched successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
     }
 };
 
@@ -50,7 +58,10 @@ export const updateNote = async (req, res, next) => {
         message: 'Note updated successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
     }
 };
 
@@ -62,7 +73,10 @@ export const deleteNote = async (req, res, next) => {
         message: 'Note deleted successfully'
       });
     } catch (error) {
-      next(error);
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
     }
 };
 
@@ -75,7 +89,10 @@ export const setIsArchived = async (req, res, next) => {
       message: 'Note is Archived successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };
 
@@ -88,6 +105,9 @@ export const setIsDeleted = async (req, res, next) => {
       message: 'Note is moved to trash successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
   }
 };

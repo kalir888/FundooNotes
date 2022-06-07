@@ -11,7 +11,7 @@ exports["default"] = void 0;
 
 var _express = _interopRequireDefault(require("express"));
 
-var userController = _interopRequireWildcard(require("../controllers/user.controller"));
+var NoteController = _interopRequireWildcard(require("../controllers/note.controller"));
 
 var _validator = require("../validators/validator");
 
@@ -23,9 +23,12 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 var router = _express["default"].Router();
 
-router.post('/signup', _validator.newUserValidator, userController.registerUser);
-router.post('/login', userController.userLogin);
-router.post('/forgotpassword', userController.forgotPassword);
-router.post('/reset', _auth.resetAuth, userController.resetPassword);
+router.get('', _auth.userAuth, NoteController.getAllNotes);
+router.post('', _validator.newNoteValidator, _auth.userAuth, NoteController.createNote);
+router.get('/:_id', _auth.userAuth, NoteController.getNote);
+router.put('/:_id', _auth.userAuth, NoteController.updateNote);
+router["delete"]('/:_id', _auth.userAuth, NoteController.deleteNote);
+router.put('/isArchived/:_id', _auth.userAuth, NoteController.setIsArchived);
+router.put('/isDeleted/:_id', _auth.userAuth, NoteController.setIsDeleted);
 var _default = router;
 exports["default"] = _default;
