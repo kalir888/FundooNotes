@@ -31,11 +31,14 @@ export const userLogin = async (userData) => {
 
 export const forgotPassword = async (userData) => {
   const data = await User.findOne({email: userData});
+  console.log('Email: ', data);
   if(data == null) {
     throw new Error("User does not exist");
   }else {
     let token = jwt.sign({firstName: data.firstName, email: data.email, id: data._id}, process.env.SECRET_KEY2);
-    mailSender.sendEmail(data.email, token);
+    let message = await mailSender.sendEmail(data.email, token);
+    console.log('message: ', message);
+    return message;
   }
 };
 

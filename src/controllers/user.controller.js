@@ -35,12 +35,14 @@ export const userLogin = async (req, res, next) => {
 
 export const forgotPassword = async (req, res, next) => {
   try {
-    await UserService.forgotPassword(req.body.email);
+    let message = await UserService.forgotPassword(req.body.email);
+    console.log('message: ', message);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       message: 'The reset password link is sent to your mail successfully'
     });
   }catch(error) {
+    console.log('error: ', error);
     res.status(HttpStatus.BAD_REQUEST).json({
       code: HttpStatus.BAD_REQUEST,
       message: `${error}`

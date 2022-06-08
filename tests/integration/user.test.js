@@ -50,7 +50,7 @@ describe('User APIs Test', () => {
       const userDetails = {
         firstName: "Ka",
         lastName: "Ramachandran",
-        email: "kali888@gmail.com",
+        email: "kalir888@gmail.com",
         password: "K@lir888"
       };
       request(app).post('/api/v1/users/signup').send(userDetails).end((err, res) => {
@@ -115,7 +115,7 @@ describe('User APIs Test', () => {
       });
     });
   });
-  /* describe('POST /reset', () => {
+  describe('POST /reset', () => {
     it('given user when password updated should return status 202', (done) => {
       const userDetails = {
         password: "Kali@1998"
@@ -128,7 +128,7 @@ describe('User APIs Test', () => {
         done();
       });
     });
-  }); */
+  });
   describe('POST /createNote', () => {
     it('given note when valid should return status 201', (done) => {
       const note = {

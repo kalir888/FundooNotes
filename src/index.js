@@ -9,6 +9,7 @@ import swaggerDocument from '../src/swagger/swagger.json';
 
 import routes from './routes';
 import database from './config/database';
+import clientRedis from './config/redis.js';
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -29,7 +30,9 @@ app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
 database();
+clientRedis();
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
