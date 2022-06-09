@@ -2,10 +2,11 @@ import express from 'express';
 import * as NoteController from '../controllers/note.controller';
 import { newNoteValidator } from '../validators/validator';
 import { userAuth } from '../middlewares/auth.middleware';
+import * as redis from '../middlewares/redis.middleware';
 
 const router = express.Router();
 
-router.get('', userAuth, NoteController.getAllNotes);
+router.get('', userAuth, redis.getRedisData, NoteController.getAllNotes);
 
 router.post('', newNoteValidator, userAuth, NoteController.createNote);
 

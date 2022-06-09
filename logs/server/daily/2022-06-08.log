@@ -82,3 +82,18 @@ error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:
 info: Server started at http://localhost:6379/api/v1/ {"timestamp":"2022-06-08T08:55:45.351Z"}
 info: Connected to the reddis database. {"timestamp":"2022-06-08T08:55:45.406Z"}
 info: Connected to the database. {"timestamp":"2022-06-08T08:55:45.501Z"}
+info: Server started at http://localhost:6379/api/v1/ {"timestamp":"2022-06-08T10:12:36.702Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-08T10:12:36.761Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T10:12:36.812Z"}
+info: Server started at http://localhost:6379/api/v1/ {"timestamp":"2022-06-08T10:30:49.528Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-08T10:30:49.612Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T10:30:49.679Z"}
+info: Server started at http://localhost:6379/api/v1/ {"timestamp":"2022-06-08T10:46:02.858Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-08T10:46:02.931Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T10:46:02.970Z"}
+info: Server started at http://localhost:6379/api/v1/ {"timestamp":"2022-06-08T10:47:30.182Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-08T10:47:30.225Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T10:47:30.270Z"}
+info: Server started at http://localhost:6379/api/v1/ {"timestamp":"2022-06-08T10:48:33.451Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-08T10:48:33.500Z"}
+info: Connected to the database. {"timestamp":"2022-06-08T10:48:33.534Z"}

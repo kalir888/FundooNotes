@@ -4,6 +4,7 @@ import * as NoteService from '../services/note.service.js';
 export const getAllNotes = async (req, res, next) => {
   try {
     const data = await NoteService.getAllNotes(req.body);
+    console.log('getting from database');
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

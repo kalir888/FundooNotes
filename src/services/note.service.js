@@ -1,14 +1,20 @@
 import Note from '../models/notes.model';
-import bcrypt from 'bcrypt';
+import { client } from '../config/redis';
 
 export const getAllNotes = async (UserID) => {
   const data = await Note.find(UserID);
-  return data;
+  if(data) {
+    await client.set('allNotes', JSON.stringify(data));
+    return data;
+  }
 };
 
 export const createNote = async (body) => {
       const data = await Note.create(body);
-      return data;
+      if(data) {
+        await client.del('allNotes'); 
+        return data;
+      }  
 };
 
 export const getNote = async (id, UserID) => {
@@ -21,25 +27,35 @@ export const updateNote = async (id, body) => {
       body,{
       new: true
     });
-    return data;
+    if(data) {
+      await client.del('allNotes');
+      return data;
+    }
 };
 
 export const deleteNote = async (id, UserID) => {
     await Note.findByIdAndDelete({_id: id, UserID: UserID});
-    return '';
+    await client.del('allNotes');
+    
 };
 
 export const setIsArchived = async (id, UserID) => {
   const data = await Note.findOne({ _id: id, UserID: UserID});
   const currentStatus = data.isArchived;
   const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isArchived: !currentStatus});
-  return resData;
+  if(resData) {
+    await client.del('allNotes');
+    return resData;
+  }
 };
 
 export const setIsDeleted = async (id, UserID) => {
   const data = await Note.findOne({ _id: id, UserID: UserID});
   const currentStatus = data.isDeleted;
   const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isDeleted: !currentStatus});
-  return resData;
+  if(resData) {
+    await client.del('allNotes');
+    return resData;
+  }
 };
 
