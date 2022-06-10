@@ -2,12 +2,14 @@ import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import * as mailSender from '../utils/mail.sender'; 
+import { server } from '../utils/rabbitmq';
 
 export const registerUser = async (body) => {
   const resData = await User.findOne({email: body.email});
   if(resData == null) {
     body.password = await bcrypt.hash(body.password, 10);
     const data = await User.create(body);
+    server(data);
     return data;
   }else {
     throw new Error("User already exist");

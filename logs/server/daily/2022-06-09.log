@@ -28,3 +28,6 @@ info: Connected to the reddis database. {"timestamp":"2022-06-09T03:55:34.555Z"}
 info: Connected to the database. {"timestamp":"2022-06-09T03:55:34.762Z"}
 info: Connected to the reddis database. {"timestamp":"2022-06-09T03:56:36.706Z"}
 info: Connected to the database. {"timestamp":"2022-06-09T03:56:36.849Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-09T05:43:57.260Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-09T05:43:57.402Z"}
+info: Connected to the database. {"timestamp":"2022-06-09T05:43:57.450Z"}

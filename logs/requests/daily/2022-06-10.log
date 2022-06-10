@@ -1,0 +1,8 @@
+info: ::1 - - [10/Jun/2022:01:27:30 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Jun/2022:01:35:23 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Jun/2022:01:47:29 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [10/Jun/2022:02:58:50 +0000] "POST /api/v1/users/signup HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.0"
+
