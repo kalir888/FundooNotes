@@ -13,9 +13,9 @@ const database = async () => {
       useFindAndModify: false,
       useCreateIndex: true,
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true 
     });
-    logger.info('Connected to the database.');
+    logger.info('Connected to the database.', DATABASE);
   } catch (error) {
     logger.error('Could not connect to the database.', error);
   }

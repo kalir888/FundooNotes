@@ -1,0 +1,3 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-05T03:08:33.268Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-05T03:08:33.391Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T03:08:33.525Z"}

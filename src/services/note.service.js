@@ -12,7 +12,7 @@ export const getAllNotes = async (UserID) => {
 export const createNote = async (body) => {
       const data = await Note.create(body);
       if(data) {
-        await client.del('allNotes'); 
+        await client.del('allNotes');
         return data;
       }  
 };
@@ -41,8 +41,8 @@ export const deleteNote = async (id, UserID) => {
 
 export const setIsArchived = async (id, UserID) => {
   const data = await Note.findOne({ _id: id, UserID: UserID});
-  const currentStatus = data.isArchived;
-  const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isArchived: !currentStatus});
+  const currentStatus = !data.isArchived;
+  const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isArchived: currentStatus}, {new: true});
   if(resData) {
     await client.del('allNotes');
     return resData;
@@ -51,8 +51,8 @@ export const setIsArchived = async (id, UserID) => {
 
 export const setIsDeleted = async (id, UserID) => {
   const data = await Note.findOne({ _id: id, UserID: UserID});
-  const currentStatus = data.isDeleted;
-  const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isDeleted: !currentStatus});
+  const currentStatus = !data.isDeleted;
+  const resData = await Note.findOneAndUpdate({_id: id, UserID: UserID}, {isDeleted: currentStatus}, {new: true});
   if(resData) {
     await client.del('allNotes');
     return resData;

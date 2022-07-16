@@ -2710,3 +2710,486 @@ info: Connected to the database. {"timestamp":"2022-06-10T02:14:29.127Z"}
 info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-10T02:58:03.735Z"}
 info: Connected to the reddis database. {"timestamp":"2022-06-10T02:58:03.807Z"}
 info: Connected to the database. {"timestamp":"2022-06-10T02:58:03.834Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-13T04:16:33.508Z"}
+info: Connected to the database. {"timestamp":"2022-06-13T04:16:33.705Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-06-13T04:16:34.599Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-14T04:48:08.752Z"}
+error: Could not connect to the reddis database. Connection timeout {"stack":"Error: Connection timeout\n    at Socket.<anonymous> (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@redis\\client\\dist\\lib\\client\\socket.js:142:124)\n    at Object.onceWrapper (node:events:641:28)\n    at Socket.emit (node:events:527:28)\n    at Socket.emit (node:domain:475:12)\n    at Socket._onTimeout (node:net:516:8)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)","timestamp":"2022-06-14T04:48:08.814Z"}
+error: Could not connect to the database. connection timed out {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connection timed out\n    at NativeConnection.Connection.openUri (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\user\\Desktop\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-14T04:48:08.894Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-21T05:52:05.987Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-06-21T05:52:07.030Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\FundooNotes\\FundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-21T05:52:35.947Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-21T05:54:58.479Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-21T05:54:58.651Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\FundooNotes\\FundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-21T05:55:28.519Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-21T06:05:27.524Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-21T06:05:27.643Z"}
+info: Connected to the database. {"timestamp":"2022-06-21T06:05:30.975Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-21T06:14:16.804Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-21T06:14:16.945Z"}
+info: Connected to the database. {"timestamp":"2022-06-21T06:14:20.793Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:16:34.337Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:19:17.075Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:29:56.587Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:32:41.039Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:35:27.933Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:40:35.556Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:43:59.571Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:44:08.480Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:46:09.091Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:47:14.554Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:49:24.467Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:49:34.541Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:50:04.464Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T09:55:15.316Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T10:44:08.689Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-21T11:04:55.818Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-21T11:04:55.943Z"}
+info: Connected to the database. {"timestamp":"2022-06-21T11:04:59.625Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:07:09.286Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:08:17.016Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:09:12.115Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:10:04.464Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:13:51.039Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:16:10.211Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:17:47.978Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-21T11:24:49.101Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-21T11:24:49.265Z"}
+info: Connected to the database. {"timestamp":"2022-06-21T11:24:59.567Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:46:36.252Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T11:47:06.331Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T12:17:27.950Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T12:23:32.089Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-06-21T12:23:36.504Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-22T01:29:05.582Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-22T01:29:05.626Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T01:29:14.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-22T07:06:56.094Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-22T07:06:56.258Z"}
+error: Could not connect to the database. queryTxt ETIMEOUT demo.aoloa.mongodb.net {"code":"ETIMEOUT","hostname":"demo.aoloa.mongodb.net","stack":"Error: queryTxt ETIMEOUT demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"queryTxt","timestamp":"2022-06-22T07:08:11.565Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Wed Jun 22 2022 23:13:03 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":481782},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360658,"external":19958972,"heapTotal":80789504,"heapUsed":75990536,"rss":14049280},"pid":8408,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-22T17:43:06.725Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-23T04:49:33.983Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-23T04:49:34.148Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T04:49:37.644Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T02:40:53.313Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T02:40:53.557Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T02:41:12.422Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jun 24 2022 10:18:09 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608088},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18413842,"external":20470821,"heapTotal":88391680,"heapUsed":79462336,"rss":99188736},"pid":7644,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-24T04:48:10.555Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T04:50:34.311Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T04:50:34.501Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T04:50:38.240Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jun 24 2022 13:02:44 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":617962},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18403023,"external":20020080,"heapTotal":89702400,"heapUsed":85171368,"rss":104611840},"pid":3612,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-24T07:32:45.132Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T07:40:10.381Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T07:40:10.442Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T07:40:16.393Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jun 24 2022 16:19:16 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":629755},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18602562,"external":21165136,"heapTotal":89964544,"heapUsed":84186800,"rss":35635200},"pid":5808,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-24T10:49:18.182Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T10:53:05.910Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T10:53:06.038Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T10:53:14.259Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T11:40:19.874Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T11:40:20.038Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T11:40:20.182Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T11:43:32.396Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T11:43:32.561Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T11:43:32.738Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T11:49:22.386Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T11:49:22.505Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T11:49:22.667Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jun 24 2022 17:21:47 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":633505},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18371284,"external":20079535,"heapTotal":85508096,"heapUsed":81199456,"rss":116965376},"pid":6080,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-24T11:51:47.872Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T11:53:08.571Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T11:53:08.678Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T11:53:08.796Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jun 24 2022 20:12:15 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":643734},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18426844,"external":20494382,"heapTotal":86032384,"heapUsed":80873584,"rss":31956992},"pid":13232,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-24T14:42:18.190Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-24T14:46:36.339Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-24T14:46:36.439Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T14:46:36.722Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jun 24 2022 21:43:38 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":649216},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398490,"external":20098110,"heapTotal":83410944,"heapUsed":78844776,"rss":24932352},"pid":5896,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-24T16:13:39.600Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-25T02:43:33.831Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-25T02:43:33.985Z"}
+info: Connected to the database. {"timestamp":"2022-06-25T02:43:36.296Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Sat Jun 25 2022 10:35:07 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":695505},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18435258,"external":20605740,"heapTotal":83935232,"heapUsed":80490128,"rss":22532096},"pid":2356,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-25T05:05:08.282Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-27T03:42:50.277Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-27T03:42:50.524Z"}
+info: Connected to the database. {"timestamp":"2022-06-27T03:42:50.884Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-28T02:25:40.290Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-28T02:25:40.392Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (D:\\FundooNotes\\FundooNotes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (D:\\FundooNotes\\FundooNotes\\src\\config\\/database.js:12:20)\n    at tryCatch (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:86:17)\n    at Generator._invoke (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:66:24)\n    at Generator.next (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:117:21)\n    at asyncGeneratorStep (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-06-28T02:26:10.120Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-28T02:30:36.251Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-28T02:30:36.340Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T02:30:36.365Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FundooNotes\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FundooNotes\FundooNotes\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\FundooNotes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T02:37:02.041Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FundooNotes\FundooNotes\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FundooNotes\FundooNotes\src\middlewares\/auth.middleware.js:22:28)
+    at tryCatch (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\FundooNotes\FundooNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (D:\FundooNotes\FundooNotes\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FundooNotes\FundooNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FundooNotes\FundooNotes\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-06-28T02:37:03.484Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Jun 28 2022 12:25:22 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":72909},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18418979,"external":20100141,"heapTotal":89178112,"heapUsed":84672072,"rss":25870336},"pid":7532,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-28T06:55:24.198Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-28T06:57:42.869Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-28T06:57:42.996Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T06:57:43.458Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-28T07:12:20.503Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-28T07:12:20.760Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T07:12:20.925Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Jun 28 2022 19:06:53 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":97000},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18528395,"external":20464289,"heapTotal":88129536,"heapUsed":83047704,"rss":27320320},"pid":9512,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-28T13:36:55.219Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-28T13:39:25.079Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-28T13:39:25.120Z"}
+info: Connected to the database. {"timestamp":"2022-06-28T13:39:25.155Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Tue Jun 28 2022 22:30:54 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":109241},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18417620,"external":20391832,"heapTotal":89178112,"heapUsed":85017688,"rss":23318528},"pid":3352,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-06-28T17:00:57.866Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T02:12:38.804Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T02:12:38.882Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T02:12:39.026Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:27:40.148Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:27:40.261Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:27:40.315Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:29:40.141Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:29:40.258Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:29:40.299Z"}
+error: uncaughtException: D:\FundooNotes\FundooNotes\src\services\note.service.js: Unexpected token (53:8)
+
+[0m [90m 51 |[39m[0m
+[0m [90m 52 |[39m [36mexport[39m [36mconst[39m setIsDeleted [33m=[39m [36masync[39m (id[33m,[39m [33mUserID[39m) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 53 |[39m   [36mawait[39m [36mconst[39m data [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindOne({ _id[33m:[39m id[33m,[39m [33mUserID[39m[33m:[39m [33mUserID[39m})[33m;[39m[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 54 |[39m   [36mconst[39m currentStatus [33m=[39m [33m![39mdata[33m.[39misDeleted[33m;[39m[0m
+[0m [90m 55 |[39m   [36mconst[39m resData [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindOneAndUpdate({_id[33m:[39m id[33m,[39m [33mUserID[39m[33m:[39m [33mUserID[39m}[33m,[39m {isDeleted[33m:[39m currentStatus})[33m;[39m[0m
+[0m [90m 56 |[39m   [36mif[39m(resData) {[0m
+SyntaxError: D:\FundooNotes\FundooNotes\src\services\note.service.js: Unexpected token (53:8)
+
+[0m [90m 51 |[39m[0m
+[0m [90m 52 |[39m [36mexport[39m [36mconst[39m setIsDeleted [33m=[39m [36masync[39m (id[33m,[39m [33mUserID[39m) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 53 |[39m   [36mawait[39m [36mconst[39m data [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindOne({ _id[33m:[39m id[33m,[39m [33mUserID[39m[33m:[39m [33mUserID[39m})[33m;[39m[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 54 |[39m   [36mconst[39m currentStatus [33m=[39m [33m![39mdata[33m.[39misDeleted[33m;[39m[0m
+[0m [90m 55 |[39m   [36mconst[39m resData [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindOneAndUpdate({_id[33m:[39m id[33m,[39m [33mUserID[39m[33m:[39m [33mUserID[39m}[33m,[39m {isDeleted[33m:[39m currentStatus})[33m;[39m[0m
+[0m [90m 56 |[39m   [36mif[39m(resData) {[0m
+    at instantiate (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parse-error\credentials.js:61:22)
+    at toParseError (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parse-error.js:58:12)
+    at Parser.raise (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\tokenizer\index.js:1736:19)
+    at Parser.unexpected (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\tokenizer\index.js:1781:16)
+    at Parser.parseExprAtom (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:1310:22)
+    at Parser.parseExprSubscripts (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:684:23)
+    at Parser.parseUpdate (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:663:21)
+    at Parser.parseMaybeUnary (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:632:23)
+    at Parser.parseAwait (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:2767:28)
+    at Parser.parseMaybeUnary (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:596:25)
+    at Parser.parseMaybeUnaryOrPrivate (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:384:14)
+    at Parser.parseExprOps (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:394:23)
+    at Parser.parseMaybeConditional (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:352:23)
+    at Parser.parseMaybeAssign (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:296:21)
+    at Parser.parseExpressionBase (D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:221:23)
+    at D:\FundooNotes\FundooNotes\node_modules\@babel\parser\src\parser\expression.js:214:39 {"date":"Wed Jun 29 2022 19:01:46 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":8,"index":1426,"line":53},"pos":1426,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":183092},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18360658,"external":27829536,"heapTotal":125022208,"heapUsed":105735072,"rss":158048256},"pid":10192,"uid":null,"version":"v16.15.0"},"stack":"SyntaxError: D:\\FundooNotes\\FundooNotes\\src\\services\\note.service.js: Unexpected token (53:8)\n\n\u001b[0m \u001b[90m 51 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 52 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m setIsDeleted \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (id\u001b[33m,\u001b[39m \u001b[33mUserID\u001b[39m) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 53 |\u001b[39m   \u001b[36mawait\u001b[39m \u001b[36mconst\u001b[39m data \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindOne({ _id\u001b[33m:\u001b[39m id\u001b[33m,\u001b[39m \u001b[33mUserID\u001b[39m\u001b[33m:\u001b[39m \u001b[33mUserID\u001b[39m})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 54 |\u001b[39m   \u001b[36mconst\u001b[39m currentStatus \u001b[33m=\u001b[39m \u001b[33m!\u001b[39mdata\u001b[33m.\u001b[39misDeleted\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 55 |\u001b[39m   \u001b[36mconst\u001b[39m resData \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindOneAndUpdate({_id\u001b[33m:\u001b[39m id\u001b[33m,\u001b[39m \u001b[33mUserID\u001b[39m\u001b[33m:\u001b[39m \u001b[33mUserID\u001b[39m}\u001b[33m,\u001b[39m {isDeleted\u001b[33m:\u001b[39m currentStatus})\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 56 |\u001b[39m   \u001b[36mif\u001b[39m(resData) {\u001b[0m\n    at instantiate (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js:61:22)\n    at toParseError (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error.js:58:12)\n    at Parser.raise (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1736:19)\n    at Parser.unexpected (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1781:16)\n    at Parser.parseExprAtom (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1310:22)\n    at Parser.parseExprSubscripts (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:684:23)\n    at Parser.parseUpdate (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:663:21)\n    at Parser.parseMaybeUnary (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:632:23)\n    at Parser.parseAwait (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2767:28)\n    at Parser.parseMaybeUnary (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:596:25)\n    at Parser.parseMaybeUnaryOrPrivate (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:384:14)\n    at Parser.parseExprOps (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:394:23)\n    at Parser.parseMaybeConditional (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:352:23)\n    at Parser.parseMaybeAssign (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:296:21)\n    at Parser.parseExpressionBase (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:221:23)\n    at D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:214:39","timestamp":"2022-06-29T13:31:46.577Z","trace":[{"column":22,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error\\credentials.js","function":"instantiate","line":61,"method":null,"native":false},{"column":12,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parse-error.js","function":"toParseError","line":58,"method":null,"native":false},{"column":19,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.raise","line":1736,"method":"raise","native":false},{"column":16,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.unexpected","line":1781,"method":"unexpected","native":false},{"column":22,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1310,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":684,"method":"parseExprSubscripts","native":false},{"column":21,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":663,"method":"parseUpdate","native":false},{"column":23,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":632,"method":"parseMaybeUnary","native":false},{"column":28,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseAwait","line":2767,"method":"parseAwait","native":false},{"column":25,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":596,"method":"parseMaybeUnary","native":false},{"column":14,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":384,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":394,"method":"parseExprOps","native":false},{"column":23,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":352,"method":"parseMaybeConditional","native":false},{"column":21,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":296,"method":"parseMaybeAssign","native":false},{"column":23,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExpressionBase","line":221,"method":"parseExpressionBase","native":false},{"column":39,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":null,"line":214,"method":null,"native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:32:18.475Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:32:18.569Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:32:18.717Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:32:42.172Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:32:42.446Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:32:42.491Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:32:59.248Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:32:59.359Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:32:59.401Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:34:39.310Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:34:39.424Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:34:39.468Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:36:23.951Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:36:24.038Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:36:24.073Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:37:35.864Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:37:35.941Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:37:35.973Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:42:05.422Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:42:05.504Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:42:05.541Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-29T13:50:18.575Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-29T13:50:18.708Z"}
+info: Connected to the database. {"timestamp":"2022-06-29T13:50:18.776Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-06-30T02:21:32.425Z"}
+info: Connected to the reddis database. {"timestamp":"2022-06-30T02:21:32.553Z"}
+info: Connected to the database. {"timestamp":"2022-06-30T02:21:32.892Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-01T02:17:49.492Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-01T02:17:49.559Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T02:17:50.245Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::4000
+Error: listen EADDRINUSE: address already in use :::4000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at Server.listen (node:net:1508:7)
+    at Function.listen (D:\FundooNotes\FundooNotes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\FundooNotes\FundooNotes\src\/index.js:42:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (D:\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (D:\FundooNotes\FundooNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (D:\FundooNotes\FundooNotes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Fri Jul 01 2022 15:37:58 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":4000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":343664},"process":{"argv":["node","D:\\FundooNotes\\FundooNotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\FundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18532628,"external":20154614,"heapTotal":123256832,"heapUsed":90191624,"rss":139304960},"pid":9872,"uid":null,"version":"v16.15.0"},"stack":"Error: listen EADDRINUSE: address already in use :::4000\n    at Server.setupListenHandle [as _listen2] (node:net:1372:16)\n    at listenInCluster (node:net:1420:12)\n    at Server.listen (node:net:1508:7)\n    at Function.listen (D:\\FundooNotes\\FundooNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\FundooNotes\\FundooNotes\\src\\/index.js:42:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (D:\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (D:\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-07-01T10:07:59.235Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1372,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1420,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1508,"method":"listen","native":false},{"column":24,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\FundooNotes\\FundooNotes\\src\\/index.js","function":null,"line":42,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"D:\\FundooNotes\\FundooNotes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Connected to the reddis database. {"timestamp":"2022-07-01T10:07:59.929Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-01T13:06:50.319Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-01T13:06:50.422Z"}
+info: Connected to the database. {"timestamp":"2022-07-01T13:06:50.476Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-02T02:32:28.163Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-02T02:32:28.270Z"}
+info: Connected to the database. {"timestamp":"2022-07-02T02:32:28.336Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-04T02:07:05.590Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-04T02:07:05.767Z"}
+info: Connected to the database. {"timestamp":"2022-07-04T02:07:25.068Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-05T03:08:33.268Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-05T03:08:33.391Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T03:08:33.525Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-07T07:32:14.194Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-07-07T07:32:15.488Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T07:32:16.268Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-07T09:09:56.901Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-07T09:09:57.088Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T09:09:57.276Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-07T12:55:49.401Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T12:55:49.529Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)","syscall":"connect","timestamp":"2022-07-07T12:55:50.467Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-07T12:57:21.720Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-07T12:57:21.810Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T12:57:21.855Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-11T02:18:51.890Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-11T02:18:51.960Z"}
+info: Connected to the database. {"timestamp":"2022-07-11T02:18:52.199Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-15T02:05:36.854Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-15T02:05:36.971Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T02:05:37.032Z"}
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {"date":"Fri Jul 15 2022 10:28:13 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1534679},"process":{"argv":["node","D:\\FundooNotes\\fundoonotes\\src\\index.js"],"cwd":"D:\\FundooNotes\\fundoonotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18435556,"external":20457623,"heapTotal":87343104,"heapUsed":84336560,"rss":37699584},"pid":5348,"uid":null,"version":"v16.15.0"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)","timestamp":"2022-07-15T04:58:13.832Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":217,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-15T15:10:43.674Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-15T15:10:43.757Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T15:10:43.846Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-15T17:00:41.082Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-15T17:00:41.141Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T17:00:41.308Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-16T02:29:34.021Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-16T02:29:34.176Z"}
+info: Connected to the database. {"timestamp":"2022-07-16T02:29:34.789Z"}

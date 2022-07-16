@@ -1,0 +1,9 @@
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-15T02:05:36.854Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-15T02:05:36.971Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T02:05:37.032Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-15T15:10:43.674Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-15T15:10:43.757Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T15:10:43.846Z"}
+info: Server started at http://localhost:4000/api/v1/ {"timestamp":"2022-07-15T17:00:41.082Z"}
+info: Connected to the reddis database. {"timestamp":"2022-07-15T17:00:41.141Z"}
+info: Connected to the database. {"timestamp":"2022-07-15T17:00:41.308Z"}
